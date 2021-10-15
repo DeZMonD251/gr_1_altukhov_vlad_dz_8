@@ -330,7 +330,7 @@ footer {
     background: url("../img/program_backgrоund.png") no-repeat;
   }
 }
-@media (max-width: 620px){
+@media (max-width: 690px){
   header{
     background: none;
   }
