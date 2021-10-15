@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir Next LT Pro', sans-serif;
+}
+body {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+header,
+main, footer {
+  width: 100%;
+  max-width: 1420px;
+  box-sizing: border-box;
+}
+.header_items{
+  display: flex;
+  justify-content: space-between;
+}
+.header_right{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+header {
+  padding: 0 15px;
+  background: url("../img/header_backgrоund.png") no-repeat;
+  background-size: cover;
+}
+.header_left {
+  margin: 32px auto 15px;
+}
+.authorization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info_half {
+  margin: auto 0;
+}
+.info_half > span {
+  display: block;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 16px;
+  color: #061058;
+  padding-right: 26px;
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  background: linear-gradient(0deg, #00a87c, #00a87c),
+    linear-gradient(180deg, #ebecf0 0%, rgba(235, 236, 240, 0) 100%);
+  border: 2px solid #00a87c;
+}
+.btn:hover {
+  box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+.btn > span {
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+}
+.arrow {
+  width: 22px;
+  height: 10px;
+}
+.program_main {
+  background: url("../img/program_backgrоund.png") no-repeat left;
+  background-size: cover;
+}
+.program {
+  background: url("../img/program_right_img.png") no-repeat right;
+  display: flex;
+}
+.program_info {
+  margin-top: 45px;
+  margin-left: 120px;
+  font-family: 'Avenir Next LT Pro', sans-serif;
+}
+.program_text {
+  width: 690px;
+}
+.program_text > span {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  font-size: 16px;
+  line-height: 133.5%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.program_text > h2 {
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+.program_text > p {
+  font-size: 16px;
+  line-height: 133.5%;
+  color: #ffffff;
+}
+p > span {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.program_bottom {
+  margin-top: 35px;
+  margin: 35px 0 40px;
+}
+.petal_1,
+.petal_2 {
+  width: 88px;
+  height: 88px;
+  background: #00a87c;
+  border-radius: 58.5295px 0px 58.5295px 58.5295px;
+  margin-right: 13px;
+}
+.petal_1 > img {
+  margin-top: 7px;
+  margin-left: 13px;
+}
+.petal_2 > img {
+  margin-top: 13px;
+  margin-left: 19px;
+}
+.volume,
+.form_of_training,
+.text {
+  display: flex;
+}
+.form_of_training > .text {
+  width: 310px;
+}
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.head {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 133.5%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.volume,
+.form_of_training {
+  font-size: 16px;
+  line-height: 133.5%;
+  color: #ffffff;
+  text-align: left;
+}
+.program_bot_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apply {
+  width: 165px;
+  height: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff5f79;
+}
+.apply:hover {
+  box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.apply > span {
+  padding-left: 9px;
+}
+.apply > img {
+  width: 11px;
+  height: 20px;
+}
+.ret_img > span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #061058;
+}
+.ret_main {
+  display: flex;
+}
+.ret_img {
+  margin-left: 76px;
+}
+.ret_img > img {
+  max-width: 100%;
+}
+.ret_text > span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #00a87c;
+  text-transform: uppercase;
+  margin-left: 53px;
+}
+.ret_text > ul {
+  padding-top: 39px;
+}
+.mark {
+  width: 23px;
+  height: 19px;
+  border: 1.5px solid #061058;
+  border-radius: 50%;
+  margin-right: 29px;
+}
+.mark > img {
+  margin-top: 5px;
+  margin-left: 6.5px;
+}
+.training_advantages_li {
+  display: flex;
+  margin-bottom: 23px;
+}
+.training_advantages_li > span {
+  padding-left: 30px;
+}
+.training_advantages_li::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: url("../img/birdie.png") center center no-repeat;
+}
+.ta_text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 133.5%;
+  color: #061058;
+  width: 364px;
+}
+.online_platform {
+  margin-left: 53px;
+  padding-left: 19px;
+  border-left: 2px solid #c9d2f3;
+}
+.op_petal_1,
+.op_petal_2 {
+  width: 50px;
+  height: 50px;
+  border: 1.17059px solid #00a87c;
+  box-sizing: border-box;
+  border-radius: 50% 0 50% 50%;
+}
+.op_petal_1 > img {
+  margin-top: 5px;
+  margin-left: 6px;
+}
+.op_petal_2 > img {
+  margin-top: 8px;
+  margin-left: 9px;
+}
+.online_platform_item {
+  display: flex;
+  margin-bottom: 28px;
+}
+.online_platform_item > span {
+  font-size: 14px;
+  line-height: 133.5%;
+  color: #061058;
+}
+.op_text {
+  font-size: 14px;
+  line-height: 133.5%;
+  color: #061058;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+.head_op {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133.5%;
+  text-transform: uppercase;
+  color: #061058;
+}
+.progress_of_learning {
+  margin-top: 30px;
+}
+footer {
+  background: #046fb7;
+  display: flex !important;
+  justify-content: center;
+}
+.footer_element {
+  max-width: 1420px;
+  width: 100%;
+  display: flex;
+}
+.email {
+  width: 50%;
+  display: flex;
+  margin: 37px 0 21px 120px;
+  height: 25px;
+  align-items: center;
+}
+.email > span {
+  font-size: 14px;
+  line-height: 133.5%;
+  color: #ffffff;
+  margin-left: 9px;
+}
+@media (max-width: 1350px) {
+  .program {
+    background-image: none;
+    background: url("../img/program_backgrоund.png") no-repeat;
+  }
+}
+@media (max-width: 620px){
+  header{
+    background: none;
+  }
+}
